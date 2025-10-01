@@ -32,6 +32,16 @@ export const Banner: Block = {
       label: false,
       required: true,
     },
+    {
+      name: 'buttons',
+      type: 'array',
+      fields: [
+        {
+          name: 'label',
+          type: 'text',
+        },
+      ],
+    },
   ],
   interfaceName: 'BannerBlock',
 }

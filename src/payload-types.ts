@@ -1696,6 +1696,7 @@ export interface BannerBlock {
   buttons?:
     | {
         label?: string | null;
+        image?: (number | null) | Media;
         id?: string | null;
       }[]
     | null;

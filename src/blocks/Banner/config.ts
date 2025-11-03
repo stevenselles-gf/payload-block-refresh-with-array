@@ -40,6 +40,11 @@ export const Banner: Block = {
           name: 'label',
           type: 'text',
         },
+        {
+          name: 'image',
+          type: 'upload',
+          relationTo: 'media',
+        },
       ],
     },
   ],
